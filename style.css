@@ -7,7 +7,12 @@ body {
 
 @font-face {
     font-family: Pacifico;
-    src: url(./Pacifico/Pacifico-Regular.ttf);
+    src: url(./fonts/Pacifico/Pacifico-Regular.ttf);
+ }
+
+@font-face {
+    font-family: PatrickHand;
+    src: url(./fonts/PatrickHand/PatrickHand-Regular.ttf);
  }
 
 body {
@@ -44,7 +49,10 @@ a {
 }
 
 .header-link {
+    font-family: PatrickHand;
+    font-size: larger;
     margin-top: 3%;
+    color: white;
 }
 
 .header-img {
@@ -62,13 +70,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.page-container-a {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
 }
 
 .video-artwork {
